@@ -1,0 +1,136 @@
+.arrangement {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+    
+    
+}
+
+
+
+
+
+
+
+.party-form {
+    text-align: center;
+    background-color:#c0c2c2 ; /* Pink */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+  
+    max-width: 800px;
+    
+    overflow: hidden;
+    
+}
+
+
+
+
+.form-container {
+    
+    text-align: left;
+    padding: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+
+
+
+
+h1 {
+    color: white;
+}
+ /* Style for the select element */
+select {
+    padding: 10px;
+    font-size: 26px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 300px;
+    outline: none;
+}
+
+/* Style for the option elements within the select */
+select option {
+    font-size: 15px;
+}
+
+/* Style for the dropdown arrow (caret) */
+select::-ms-expand,
+select::-ms-value {
+    display: none;
+}
+
+/* Style for when the dropdown is open */
+select:focus {
+    border-color: #007bff;
+}
+
+
+
+label {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+.radio{
+    display: flex;
+    margin: 5px;
+}
+#statues{
+    font-size: 16px;
+    color: rgb(11, 11, 11); 
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff69b4;
+    color: white;
+}
+
+#notification_1 {
+            display: none;
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+#notification_2 {
+            display: none;
+            background: rgb(85, 255, 0);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }

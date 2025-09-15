@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff69b4;
+    color: white;
+}
+
+#notification_1 {
+            display: none;
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+#notification_2 {
+            display: none;
+            background: rgb(85, 255, 0);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }

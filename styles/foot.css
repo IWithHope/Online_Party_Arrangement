@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	
+}
+
+.item{
+	color:white;
+	font-size:large;
+	margin-top: 10px;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	
+
+	
+}
+
+.container_foot{
+
+	display:flex;
+	
+	background-color:grey;
+	justify-content:space-around;
+	align-items:flex-start;
+	height:40vh;
+	
+}
+.icon{
+	float:left;
+	padding:10px;
+}
+.para{
+	float:right;
+	padding:5px ;
+	color: white;
+}
+
+h3{
+padding-bottom: 15px;
+color: black;
+}
+.post{
+	width: 80px;
+	height: auto;
+	padding: 0px;
+}
+p span:hover{
+	background-color: rgb(59, 61, 61);
+	color: rgb(247, 247, 249);
+	cursor:pointer;
+}

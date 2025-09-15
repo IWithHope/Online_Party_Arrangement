@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.services, .about, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-item {
+    margin-top: 30px;
+}
+
+.service-item img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
